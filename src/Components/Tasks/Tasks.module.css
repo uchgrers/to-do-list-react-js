@@ -1,0 +1,13 @@
+.item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.input {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}

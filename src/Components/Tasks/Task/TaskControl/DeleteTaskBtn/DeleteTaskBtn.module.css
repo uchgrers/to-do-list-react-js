@@ -1,0 +1,30 @@
+.item {
+    border: none;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    background: none;
+}
+
+.delete {
+    position: relative;
+    right: calc(25px / 2);
+    bottom: 2px;
+}
+
+.delete:before {
+    transform: rotate(-45deg);
+}
+
+.delete:after {
+    transform: rotate(45deg);
+}
+
+.delete:before, .delete:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    background: indianred;
+    border-radius: 5px;
+}

@@ -1,0 +1,50 @@
+.description {
+    width: 85%;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+    top: 30px;
+    left: 30px;
+    padding: 0 5px;
+    border: #211f1f solid 1px;
+    border-radius: 6px;
+    background-color: #373740;
+    hyphens: auto;
+    cursor: auto;
+    z-index: 2;
+    word-wrap: break-word;
+    color: #70706e;
+    resize: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.description-enter {
+    /*transform: translateY(-100%);*/
+    opacity: 0;
+    max-height: 0;
+    /*scale: 0.1;*/
+}
+
+.description-enter-active {
+    /*transform: translateY(0);*/
+    opacity: 1;
+    max-height: 1000px;
+    /*scale: 1;*/
+    transition: all 0.5s ease;
+}
+
+.description-exit {
+    /*transform: translateY(0);*/
+    opacity: 1;
+    /*scale: 1;*/
+    max-height: 1000px;
+}
+
+.description-exit-active {
+    /*transform: translateY(-100%);*/
+    opacity: 0;
+    /*scale: 0.1;*/
+    max-height: 0;
+    transition: all 0.5s ease;
+}

@@ -1,0 +1,59 @@
+.item {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 30px;
+}
+
+.errorMessage {
+    display: none;
+}
+
+.showMessage {
+    display: block;
+    position: absolute;
+}
+
+input {
+    width: 75%;
+    margin: 0;
+    font-size: 18px;
+    resize: none;
+    background-color: #373740;
+    border: #211f1f solid 1px;
+    border-radius: 5px;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.button {
+    width: 10%;
+    margin: 0;
+    background-color: #373740;
+    border: #211f1f solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.errorMessage {
+    display: none;
+}
+
+.showMessage {
+    font-size: 14px;
+    color: indianred;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}

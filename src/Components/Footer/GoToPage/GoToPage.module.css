@@ -1,0 +1,12 @@
+.item {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 290px;
+    padding: 6px;
+}
+
+.item::-webkit-outer-spin-button,
+.item::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

@@ -1,0 +1,22 @@
+.item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.item:hover .dot {
+    background-color: #494952;
+}
+
+.dot {
+    position: relative;
+    width: 4px;
+    height: 4px;
+    background-color: azure;
+    border-radius: 50%;
+    transition: background-color 0.15s;
+    padding: 0;
+}
